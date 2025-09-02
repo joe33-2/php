@@ -217,30 +217,201 @@ echo "Hello World!";<h1>Hello</h1>
         // $g =(bool) $g;
         // $h =(bool) $h;
 
-        $a =(array) $a;
-        $b =(array) $b;
-        $c =(array) $c;
-        $d =(array) $d;
-        $e =(array) $e;
-        $f =(array) $f;
-        $g =(array) $g;
-        $h =(array) $h;
+        // $a =(array) $a;
+        // $b =(array) $b;
+        // $c =(array) $c;
+        // $d =(array) $d;
+        // $e =(array) $e;
+        // $f =(array) $f;
+        // $g =(array) $g;
+        // $h =(array) $h;
         
-        var_dump($a);
-        echo "<br>";
-        var_dump($b);
-        echo "<br>";
-        var_dump($c);
-        echo "<br>";
-        var_dump($d);
-        echo "<br>";
-        var_dump($e);
-        echo "<br>";
-        var_dump($f);
-        echo "<br>";
-        var_dump($g);
-        echo "<br>";
-        var_dump($h);
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($e);
+        // echo "<br>";
+        // var_dump($f);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+
+        ////php math 
+        // $pi = pi();
+        // echo $pi, "<br>";
+
+        // // $minNumBER = min(800, 500, 4, 76, 1);
+        // // echo $minNumber, "<br>";
+        // // $mAXNumBER = max(800, 500, 4 , 76, 1);
+        // // echo $mAXNumber, "<br>";
+
+        // $num = 5;
+        // echo abs($num), "<br>";
+
+        // $sqrt = sqrt(9);
+        // echo $sqrt, "<br>";
+
+        // $rounded = round(3.49, 1);
+        // echo $rounded, "<br>";
+
+        // echo PHP_INT_MAX, "<br>";
+        // echo PHP_INT_MIN, "<br>";
+        // echo rand(), "<br>";
+
+        // echo rand(5, 10), "<br>";
+
+        //PHP CONSTANT
+
+        // define("greet8", 7);
+        // var_dump( greet8);
+
+        // function test(){
+        //     echo greet8;
+        // }
+        // test();
+        
+        // //php ope
+        // //arit
+        
+        // //add 
+        // echo 9 + 8 + 65, "<br>" ;
+        // //sub
+        // echo 67-5-3-2,"<br>";
+        // // combine sub & add
+        // echo 7-8+80,"<br> ";
+
+        // // mul
+
+        // echo 9*8,"<br>";
+
+        // // div
+
+        // echo 90/5,"<br>";
+        // //combine mul & div
+        // echo 9*4 / 5,"<br>";
+        // // combine all
+        // echo 8+9/3*6,"<br>";
+
+        // //mod
+        // echo 113%5,"<br>";
+
+        // //ex
+        // echo 6** 5,"<br>";
+
+        // // ass
+
+        // //+=
+        // //-=
+        // // /=
+        // // *=
+        // // %=
+
+        // // $x = 5;
+        // // $x += 8;
+
+        // // echo $x;
+
+        // //compa
+
+        // // ==
+        // // === identical
+        // // >=
+        // // <=
+        // // !=
+        // //!==
+        // var_dump (6=="6");
+
+        // var_dump (6==="6");
+
+        // var_dump(8!=7);
+
+        // var_dump(8!=="7");
+
+        // var_dump(77>=88);
+
+        // var_dump(77<=88);
+        // //<=>
+        // echo 0 <=> 1,"<br>";
+        // echo 1 <=> 0,"<br>";
+        // echo 1 <=> 1,"<br>";
+
+        // // ++ add increment
+        // // -- sub decrement
+        // // pre- incre
+        // // post- incre
+
+        // // $x = 7; // pre- incre
+        // // echo ++$x,"<br>";
+
+        // // $y = 9;   // post- incre
+
+        // // echo $y++,"<br>";
+        // // echo $y++,"<br>";
+
+        // $x = 7; // pre- incre
+        // echo --$x,"<br>";
+
+        // $y = 9;   // post- incre
+
+        // echo $y--,"<br>";
+        // echo $y--,"<br>";
+
+        // logical ope
+
+        // and &
+        // var_dump(true && true);//true
+        // echo "<br>";
+        // var_dump(true && false); //false
+        // echo "<br>";
+        // var_dump(7=="7" and 7>9); //false
+        // echo "<br>";
+        // // or ||
+        // var_dump(false || false); //false
+        // echo "<br>";
+        // var_dump(false || true);//true
+        // echo "<br>";
+        // var_dump(7=="7" or 7>9); //true
+        // echo "<br>";
+        // //xor
+        // var_dump(true xor false); //false
+        // echo "<br>";
+        // var_dump(true xor true);//false
+        // echo "<br>";
+        // var_dump(7=="7" xor 7>9); //true
+        // echo "<br>";
+
+        // //!
+        // var_dump(!false); //true
+        // echo "<br>";
+        // var_dump(!true);//false
+        // echo "<br>";
+        // var_dump(!7=="7"); //false
+        // echo "<br>";
+
+        // string ope
+        echo "hello ". "world!", "<br>";
+        $x = "Hello";
+        $x .= " World!";
+        echo($x);
+
+
+
+
+
+
+
+
+
+        
+
+
+
 
     ?>
 </body>
